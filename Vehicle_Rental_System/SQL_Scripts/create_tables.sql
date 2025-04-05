@@ -6,7 +6,7 @@ CREATE TABLE Vehicles (
     AvailabilityStatus VARCHAR(20) NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS Customers (
+CREATE TABLE Customers (
     CustomerID INT PRIMARY KEY,
     Name VARCHAR(100) NOT NULL,
     Contact VARCHAR(50),
