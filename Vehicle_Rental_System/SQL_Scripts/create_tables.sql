@@ -1,15 +1,15 @@
 CREATE TABLE Vehicles (
     VehicleID INT PRIMARY KEY,
-    Model VARCHAR(40) NOT NULL,
-    Type VARCHAR(40) NOT NULL,
+    Model VARCHAR(50) NOT NULL,
+    Type VARCHAR(50) NOT NULL,
     PricePerDay DECIMAL(10,2) NOT NULL,
-    AvailabilityStatus VARCHAR(40) NOT NULL
+    AvailabilityStatus VARCHAR(20) NOT NULL
 );
 
-CREATE TABLE Customers (
+CREATE TABLE IF NOT EXISTS Customers (
     CustomerID INT PRIMARY KEY,
     Name VARCHAR(100) NOT NULL,
-    Contact VARCHAR(100),
+    Contact VARCHAR(50),
     LicenseNumber VARCHAR(50)
 );
 

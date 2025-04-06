@@ -1,39 +1,19 @@
-SELECT * FROM Vehicles
-WHERE AvailabilityStatus = 'Available';
+CALL GetAvailableVehicles();
 
-SELECT * FROM Rentals
-WHERE CustomerID = 101;
+CALL GetRentalsByCustomer(101);
 
-SELECT SUM(TotalCost) AS TotalRevenue FROM Rentals;
+CALL TotalRevenue();
 
-SELECT CustomerID, COUNT(*) AS TotalBookings
-FROM Rentals
-GROUP BY CustomerID
-HAVING COUNT(*) > 3;
+CALL CustomersWithManyBookings();
 
-UPDATE Vehicles
-SET AvailabilityStatus = 'Not Available'
-WHERE VehicleID = 2;
-SELECT * FROM Vehicles;
+CALL SetVehicleUnavailable(3);
 
-SELECT * FROM Rentals
-WHERE RentDate >= CURDATE() - INTERVAL 30 DAY;
+CALL RecentRentals();
 
-DELETE FROM Rentals
-WHERE RentDate < CURDATE() - INTERVAL 1 YEAR;
-SELECT * FROM Rentals;
+CALL DeleteOldRentals();
 
-SELECT VehicleID, COUNT(*) AS TimesRented
-FROM Rentals
-GROUP BY VehicleID
-ORDER BY TimesRented DESC;
+CALL MostRentedVehicles();
 
-SELECT CustomerID, DATEDIFF(ReturnDate, RentDate) AS TripLength
-FROM Rentals
-ORDER BY TripLength DESC;
+CALL TripLengths();
 
-SELECT v.VehicleID, v.Model, SUM(r.TotalCost) AS TotalEarnings
-FROM Vehicles v
-JOIN Rentals r ON v.VehicleID = r.VehicleID
-GROUP BY v.VehicleID, v.Model
-ORDER BY TotalEarnings DESC;
+CALL VehicleEarnings();
