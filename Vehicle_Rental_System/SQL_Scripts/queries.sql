@@ -6,7 +6,7 @@ CALL TotalRevenue();
 
 CALL CustomersWithManyBookings();
 
-CALL SetVehicleUnavailable(3);
+CALL SetVehicleUnavailable(2);
 
 CALL RecentRentals();
 
