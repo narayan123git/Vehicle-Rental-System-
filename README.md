@@ -84,3 +84,9 @@ We implemented all these features as SQL queries:
 
 ## Note
 This is our submission for the DBMS course project. We've implemented everything using MySQL Command Line Client as our virtual database environment.
+
+<a href="https://github.com/narayan123git/Vehicle-Rental-System-/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=narayan123git/Vehicle-Rental-System-" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
