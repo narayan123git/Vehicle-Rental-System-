@@ -85,8 +85,39 @@ We implemented all these features as SQL queries:
 ## Note
 This is our submission for the DBMS course project. We've implemented everything using MySQL Command Line Client as our virtual database environment.
 
-<a href="https://github.com/narayan123git/Vehicle-Rental-System-/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=narayan123git/Vehicle-Rental-System-" />
-</a>
+## Contributors
 
-Made with [contrib.rocks](https://contrib.rocks).
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/narayan123git">
+        <img src="https://avatars.githubusercontent.com/u/123064245?v=4" width="100px;" alt="Narayan"/>
+        <br /><sub><b>narayan123git</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Jayasree7917">
+        <img src="https://avatars.githubusercontent.com/u/163977289?v=4" width="100px;" alt="Jayasree"/>
+        <br /><sub><b>Jayasree7917</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/jeet7867">
+        <img src="https://avatars.githubusercontent.com/u/163965845?v=4" width="100px;" alt="Jeet"/>
+        <br /><sub><b>jeet7867</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/keerthana266">
+        <img src="https://avatars.githubusercontent.com/u/163973730?v=4" width="100px;" alt="Keerthana"/>
+        <br /><sub><b>keerthana266</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/SynPmk">
+        <img src="https://avatars.githubusercontent.com/u/163965384?v=4" width="100px;" alt="SynPmk"/>
+        <br /><sub><b>SynPmk</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
