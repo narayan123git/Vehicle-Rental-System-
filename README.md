@@ -6,7 +6,7 @@
 - **Problem Statement:** Develop a database for a Vehicle Rental System
 
 ## About the Project
-We created this database system to help rental systems keep track of their vehicles, customers, and rental transactions. Our system makes it easy to see which cars are available, track customer history, and analyze rental patterns.
+We created this database system to help rental systems keep track of their vehicles, customers, and rental transactions. Our system makes it easy to see which cars are available, track customer history, and analyze rental patterns
 
 ## Virtual Database
 For this project, we set up a virtual database using MySQL Command Line Client. We chose this approach because:
