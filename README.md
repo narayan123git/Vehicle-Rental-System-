@@ -62,7 +62,7 @@ Vehicle_Rental_System/
 
 ## Getting Started
 
-If you want to test our system:
+If you want to test our system
 
 ```
 # Open MySQL Command Line Client
